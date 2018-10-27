@@ -6,7 +6,7 @@
 Flashcard app
 
 ### App Walk-though
-<img src="https://github.com/daviddahlb/QuickCards/blob/master/Flashcard.gif" width=200><br>
+<img src="https://github.com/daviddahlb/QuickCards2/blob/master/Flashcard.gif" width=200><br>
 
 ## Required
 - [x] Create New Project in Android Studio
