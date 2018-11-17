@@ -8,7 +8,7 @@ Added features:
 
 ### App Walk-though
 
-<img src="YOUR_GIF_URL_HERE" width=200><br>
+<img src="https://github.com/daviddahlb/QuickCards2/blob/master/Flashcard3.gif" width=200><br>
 
 ## Required
 - [x] User can create a card and still see their created card when the app is relaunched.
