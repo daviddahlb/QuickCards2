@@ -14,8 +14,8 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="ic_cancel" />
-                            <entry key="sourceFile" value="C:\Users\david\Desktop\Codepath\cancel.svg" />
+                            <entry key="outputName" value="next_button" />
+                            <entry key="sourceFile" value="C:\Users\david\Desktop\Codepath\next.svg" />
                           </map>
                         </option>
                       </PersistentState>
