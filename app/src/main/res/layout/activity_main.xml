@@ -9,7 +9,7 @@
     <TextView
         android:id="@+id/flashcard_question"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="308dp"
         android:layout_alignParentTop="true"
         android:layout_centerVertical="true"
         android:layout_marginTop="40dp"
@@ -19,8 +19,8 @@
 
     <TextView
         android:id="@+id/flashcard_answer"
-        android:layout_width="318dp"
-        android:layout_height="199dp"
+        android:layout_width="match_parent"
+        android:layout_height="308dp"
         android:layout_alignParentTop="true"
         android:layout_centerVertical="true"
         android:layout_marginTop="40dp"
@@ -36,22 +36,47 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="5dp"
-        android:layout_marginRight="5dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
         android:src="@drawable/ic_plus" />
 
     <ImageView
         android:id="@+id/next_button"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
+        android:layout_above="@+id/ic_plus"
+        android:layout_alignStart="@+id/ic_plus"
+        android:layout_alignLeft="@id/ic_plus"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/next_button"/>
+
+    <ImageView
+        android:id="@+id/delete_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/ic_plus"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="4dp"
-        android:layout_marginRight="4dp"
-        android:layout_marginBottom="348dp"
-        android:src="@drawable/next_button" />
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/ic_delete"
+        android:tint="@color/red"/>
+
+    <ImageView
+        android:id="@+id/empty_state"
+        android:layout_width="match_parent"
+        android:layout_height="222dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="68dp"
+        android:src="@mipmap/ic_launcher_foreground" />
+
 
 
 </RelativeLayout>
