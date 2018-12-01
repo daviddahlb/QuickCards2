@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.EditText;
 
 
-public class addQuestionActivity extends AppCompatActivity {
+public class AddCardActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +17,9 @@ public class addQuestionActivity extends AppCompatActivity {
         findViewById(R.id.ic_cancel).setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-              finish();
+
+                finish(); //back to previous activity
+                overridePendingTransition(R.anim.left_in,R.anim.right_out);
             }
         });
 
@@ -29,6 +31,7 @@ public class addQuestionActivity extends AppCompatActivity {
                 data.putExtra("answer", ((EditText) findViewById(R.id.editAnswer)).getText().toString());
                 setResult(RESULT_OK, data);
                 finish();
+                overridePendingTransition(R.anim.left_in,R.anim.right_out);
             }
         });
 

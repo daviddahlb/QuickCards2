@@ -8,25 +8,29 @@
 
     <TextView
         android:id="@+id/flashcard_question"
-        android:layout_width="match_parent"
-        android:layout_height="308dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerVertical="true"
-        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:paddingTop="10dp"
+        android:paddingHorizontal="20dp"
+        android:background="@drawable/back"
         android:gravity="center"
-        android:text="Who is the 44th President of the United States?"
+        android:layout_marginTop="15dp"
         android:textSize="40sp" />
 
     <TextView
         android:id="@+id/flashcard_answer"
-        android:layout_width="match_parent"
-        android:layout_height="308dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerVertical="true"
-        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/back"
         android:gravity="center"
-        android:text="Barack Obama"
         android:textSize="40sp"
+        android:paddingTop="10dp"
+        android:paddingHorizontal="20dp"
+        android:layout_marginTop="15dp"
         android:visibility="invisible" />
 
     <ImageView
@@ -48,8 +52,12 @@
         android:layout_above="@+id/ic_plus"
         android:layout_alignStart="@+id/ic_plus"
         android:layout_alignLeft="@id/ic_plus"
-        android:layout_marginBottom="40dp"
-        android:src="@drawable/next_button"/>
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/next_button" />
 
     <ImageView
         android:id="@+id/delete_button"
@@ -59,7 +67,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="15dp"
         android:layout_marginLeft="15dp"
         android:layout_marginTop="0dp"
         android:layout_marginBottom="15dp"
@@ -77,6 +85,17 @@
         android:layout_marginTop="68dp"
         android:src="@mipmap/ic_launcher_foreground" />
 
+    <ImageView
+        android:id="@+id/edit_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/delete_button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/ic_edit" />
 
 
 </RelativeLayout>

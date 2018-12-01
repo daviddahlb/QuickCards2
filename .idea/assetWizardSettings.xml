@@ -45,8 +45,8 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="ic_delete" />
-                            <entry key="sourceFile" value="C:\Users\david\Desktop\Codepath\iconmonstr-trash-can-6.svg" />
+                            <entry key="outputName" value="ic_edit" />
+                            <entry key="sourceFile" value="C:\Users\david\Desktop\Codepath\edit.svg" />
                           </map>
                         </option>
                       </PersistentState>
